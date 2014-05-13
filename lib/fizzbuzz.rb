@@ -21,3 +21,10 @@ end
 def say_fizzbuzz(number)
 	'fizzbuzz' if number % 15 == 0
 end
+
+def play_fizzbuzz(number)
+	'fizz' if number % 3 == 0	
+	'buzz' if number % 5 == 0
+	'fizzbuzz' if number % 15 == 0
+	number
+end

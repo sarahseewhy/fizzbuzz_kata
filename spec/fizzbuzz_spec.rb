@@ -36,3 +36,9 @@ describe "say fizzbuzz" do
 		expect(say_fizzbuzz(15)).to eq 'fizzbuzz'
 	end
 end
+
+describe "play fizzbuzz" do
+	it 'plays fizzbuzz' do 
+		expect(play_fizzbuzz(3)).to be_true
+	end
+end
