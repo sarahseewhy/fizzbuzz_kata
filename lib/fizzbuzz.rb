@@ -9,3 +9,7 @@ end
 def divisible_by_15?(number)
 	number % 15 == 0
 end
+
+def say_fizz(number)
+	'fizz' if number % 3 == 0	
+end

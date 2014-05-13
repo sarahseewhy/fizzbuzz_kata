@@ -18,3 +18,9 @@ describe "divisible by fifteen" do
 		expect(divisible_by_15?(15)).to be_true
 	end
 end
+
+describe "say fizz" do 
+	it "should say fizz if a number is divisible_by_3" do 
+		expect(say_fizz(3)).to eq 'fizz'
+	end
+end
