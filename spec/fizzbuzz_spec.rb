@@ -30,3 +30,9 @@ describe "say buzz" do
 		expect(say_buzz(5)).to eq 'buzz'
 	end
 end
+
+describe "say fizzbuzz" do 
+	it 'should say fizzbuzz if a number is divisible by 15' do 
+		expect(say_fizzbuzz(15)).to eq 'fizzbuzz'
+	end
+end
