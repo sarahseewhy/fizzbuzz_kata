@@ -13,3 +13,7 @@ end
 def say_fizz(number)
 	'fizz' if number % 3 == 0	
 end
+
+def say_buzz(number)
+	'buzz' if number % 5 == 0
+end

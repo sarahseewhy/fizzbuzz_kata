@@ -24,3 +24,9 @@ describe "say fizz" do
 		expect(say_fizz(3)).to eq 'fizz'
 	end
 end
+
+describe "say buzz" do
+	it "should say buzz if a number is divisible by 5" do 
+		expect(say_buzz(5)).to eq 'buzz'
+	end
+end
