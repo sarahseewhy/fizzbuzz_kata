@@ -12,3 +12,9 @@ describe "divisible by five" do
 		expect(divisible_by_5?(5)).to be_true
 	end
 end
+
+describe "divisible by fifteen" do
+	it "should know if a number is divisible by fifteen" do
+		expect(divisible_by_15?(15)).to be_true
+	end
+end
