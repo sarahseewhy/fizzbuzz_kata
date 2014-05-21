@@ -23,8 +23,12 @@ def say_fizzbuzz(number)
 end
 
 def play_fizzbuzz(number)
-	'fizz' if number % 3 == 0	
-	'buzz' if number % 5 == 0
-	'fizzbuzz' if number % 15 == 0
+	puts 'fizz' if number % 3 == 0	
+	puts 'buzz' if number % 5 == 0
+	puts 'fizzbuzz' if number % 15 == 0
 	number
+end
+
+(1..100).each do |number|
+	puts play_fizzbuzz(number)
 end
